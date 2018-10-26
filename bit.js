@@ -7,16 +7,12 @@ class Bit {
 	}
 
 	clicked()	{
-		if (mouseX > this.x - this.r && mouseX < this.x + this.r)
-		{
-            if (mouseY > this.y - this.r && mouseY < this.y + this.r)
-			{
+		if (mouseX > this.x - this.r && mouseX < this.x + this.r)		{
+            if (mouseY > this.y - this.r && mouseY < this.y + this.r)			{
 				this.status = !this.status;
 			}
 		}
 	}
-
-
 
 	show() {
 		if(this.status == true)
